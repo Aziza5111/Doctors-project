@@ -14,6 +14,9 @@ a {
   color: inherit;
 }
 
+.header {
+  background-color: #eafff0;
+}
 .container {
   width: 1171px;
   margin: 0 auto;
@@ -22,7 +25,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 39px, 135px;
+  padding: 40px 0;
 }
 
 .nav-items {
@@ -49,24 +52,25 @@ a {
   border-radius: 5px;
 }
 
+.showcase {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 h1 {
   font-size: 55px;
-  margin-top: 138px;
   font-weight: 600;
-  line-height: 70px;
 }
 
 p {
   color: grey;
   font-size: 15px;
+  margin: 32px 0;
 }
 
 .buttons {
   display: flex;
-  align-items: center;
   gap: 26px;
-  margin-top: 32px;
-  font-weight: 600;
 }
 
 .buttons a {
@@ -83,4 +87,42 @@ p {
   font-weight: 300px;
   border-radius: 5px;
   border: 1px solid black;
+}
+
+.showcase-img {
+  width: 500px;
+  margin-top: -100px;
+  margin-right: 200px;
+}
+
+/* Header end */
+
+.status {
+  margin: 70px 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  width: 270px;
+  height: 187px;
+  border-radius: 20px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box h3 {
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.box p {
+  font-size: 16px;
+}
+
+.green {
+  background-color: #2dcf57;
 }
