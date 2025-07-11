@@ -3,6 +3,9 @@
   font-family: sans-serif;
 }
 
+body {
+  font-family: sans-serif;
+}
 ul,
 ol,
 li {
@@ -57,12 +60,12 @@ a {
   justify-content: space-between;
   align-items: center;
 }
-h1 {
+.showcase h1 {
   font-size: 55px;
   font-weight: 600;
 }
 
-p {
+.showcase p {
   color: grey;
   font-size: 15px;
   margin: 32px 0;
@@ -82,9 +85,10 @@ p {
   color: white;
   background-color: #2dcf57;
   border: 1px solid #2dcf57;
+  font-weight: 600;
 }
 .find {
-  font-weight: 300px;
+  font-weight: 600;
   border-radius: 5px;
   border: 1px solid black;
 }
@@ -117,12 +121,205 @@ p {
 .box h3 {
   font-size: 64px;
   font-weight: bold;
+  color: white;
 }
 
 .box p {
   font-size: 16px;
+  margin-top: -50px;
+  color: white;
 }
 
 .green {
   background-color: #2dcf57;
+}
+
+.black {
+  background-color: black;
+}
+
+.our-services {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.our-services h4 {
+  margin: 157px 396px;
+  font-size: 20px;
+  color: #242424;
+  text-align: center;
+}
+.our-services p {
+  margin-top: -125px;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: grey;
+}
+
+.information-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.information-cards h5 {
+  font-size: 18px;
+  color: #2dcf57;
+  text-align: left;
+  margin-top: -10px;
+  margin-left: 25px;
+}
+.information-cards p {
+  text-align: left;
+  margin-left: 25px;
+  margin-top: -13px;
+  font-size: 14px;
+  line-height: 20px;
+  color: grey;
+}
+
+.border {
+  border: 1px solid #979797;
+  border-radius: 10px;
+  width: 360px;
+  height: 360px;
+}
+
+.counselling img {
+  margin: 27px 29px;
+  width: 100px;
+  margin-bottom: 40px;
+}
+
+.support img {
+  margin: 27px 29px;
+  width: 140px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.medicine img {
+  width: 170px;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.therapies img {
+  width: 170px;
+  margin-left: 20px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.brain img {
+  width: 160px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.eye img {
+  width: 150px;
+  margin-left: 20px;
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+
+.big-box {
+  background-color: #2dcf57;
+  color: white;
+  margin: 150px 20px;
+  width: 1140px;
+  height: 450px;
+  border-radius: 20px;
+}
+
+.big-box h6 {
+  font-size: 15px;
+  padding: 100px;
+  text-align: center;
+}
+
+.motivated {
+  font-size: 45px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: -110px;
+}
+
+.get-btn {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: 600;
+  display: inline;
+  margin-left: 470px;
+  padding: 10px 35px;
+  border-radius: 5px;
+}
+
+.say {
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+}
+
+.sed {
+  font-size: 14px;
+  text-align: center;
+  color: grey;
+  margin-top: -9px;
+  line-height: 20px;
+}
+
+.miles {
+  display: flex;
+  align-items: center;
+  border: 1px solid #979797;
+  border-radius: 10px;
+  width: 800px;
+  height: 300px;
+  margin-left: 180px;
+  margin-top: 50px;
+}
+
+.miles img {
+  margin-left: 64px;
+  margin-top: -115px;
+}
+
+.name {
+  font-size: 18px;
+  color: black;
+  margin-left: 20px;
+  margin-top: 25px;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: left;
+}
+
+.may {
+  font-size: 12px;
+  color: grey;
+  margin-left: 20px;
+  margin-top: -10px;
+  text-align: left;
+}
+
+.stars {
+  color: #f5bf00;
+}
+
+.text-amet {
+  font-size: 14px;
+  color: grey;
+  margin-left: -80px;
+  text-align: left;
+  line-height: 20px;
 }
